@@ -1,0 +1,27 @@
+{
+    "name": "saineshmamgain/laravel-admin-boilerplate",
+    "description": "A package to setup basic AdminLTE 3 template",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "saineshmamgain",
+            "email": "saineshmamgain@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SaineshMamgain\\Boilerplate\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SaineshMamgain\\Boilerplate\\LaravelAdminBoilerplateServiceProvider"
+            ]
+        }
+    }
+}
